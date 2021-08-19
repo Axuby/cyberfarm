@@ -13,9 +13,11 @@ const Search = () => {
     });
  const [error, setError] = useState(false)
     
-    const { categories, category, search, results, searched } = data;
+ const { categories, category, search, results, searched } = data;
 
-    const loadCategories = () => {
+   
+ 
+ const loadCategories = () => {
         getCategories().then(data => {
             console.log(data)
             console.log(API)

@@ -1,13 +1,14 @@
 {
   "name": "ecommerce",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cyberfarm",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js",
-    "debug": "ndb app.js"
+    "debug": "ndb app.js",
+      "client": "cd ..//frontend && npm run dev"
   },
-  "keywords": [],
+  "keywords": ["example","heroku"],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -29,5 +30,8 @@
     "ndb": "^1.1.5",
     "nodemon": "^1.19.0",
     "uuid": "^3.3.2"
+  },
+  "engines": {
+    "node": "14.17.x"
   }
 }
